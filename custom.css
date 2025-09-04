@@ -1,0 +1,18 @@
+/* custom.css */
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+.bad-example {
+  background-color: #ffe6e6;
+  padding: 1rem;
+  border: 1px solid #ff4d4d;
+}
+
+.good-example {
+  background-color: #e6ffe6;
+  padding: 1rem;
+  border: 1px solid #4dff4d;
+}

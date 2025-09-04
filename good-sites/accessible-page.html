@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bra exempel - Delaktigwebb-demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  <!-- Custom CSS -->
+  <link href="../custom.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-primary text-white p-3 mb-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 mb-0">Bra tillgänglighetsexempel</h1>
+      <nav>
+        <a class="text-white me-3" href="../index.html">Startsida</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="mb-5">
+      <h2>Exempel på korrekt webbtillgänglighet</h2>
+      <p>Denna sida är en demo med bra tillgänglighet. Alla element följer WCAG 2.1 AA.</p>
+    </section>
+
+    <section class="mb-4">
+      <h3>Bilder med beskrivande alt-text</h3>
+      <img src="https://via.placeholder.com/150" alt="Exempelbild med korrekt alt-text" class="mb-3 img-fluid">
+      <p>Bildens alt-text beskriver innehållet, vilket gör sidan mer tillgänglig för skärmläsare.</p>
+    </section>
+
+    <section class="mb-4">
+      <h3>Text med bra kontrast</h3>
+      <p class="p-2" style="color: #212529; background-color: #f8f9fa;">Texten har god kontrast mot bakgrunden och är lätt att läsa.</p>
+    </section>
+
+    <section class="mb-4">
+      <h3>Knapp med beskrivande label</h3>
+      <button class="btn btn-success" aria-label="Skicka formulär">Skicka</button>
+      <p>Knappen har tydlig text och en aria-label för skärmläsare.</p>
+    </section>
+
+    <section class="mb-4">
+      <h3>Länk med underline och tydlig stil</h3>
+      <a href="#" class="text-decoration-underline text-primary">Klicka här för mer info</a>
+      <p>Länken är tydlig visuellt och kan lätt identifieras av alla användare.</p>
+    </section>
+
+    <section class="mb-4">
+      <h3>Element med fokusindikator</h3>
+      <input type="text" class="form-control mb-2" placeholder="Kan fokuseras med tangentbord" aria-label="Textfält">
+      <a href="#" class="btn btn-warning">Länk-knapp med fokus</a>
+      <p>Alla interaktiva element har synlig fokusindikator när man navigerar med tangentbordet.</p>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center p-3 mt-5">
+    <p>✅ Denna sida är en DEMO med korrekt webbtillgänglighet, skapad för att jämföra med dåliga exempel.</p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+</body>
+</html>
